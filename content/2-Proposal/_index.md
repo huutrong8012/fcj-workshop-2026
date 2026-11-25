@@ -1,4 +1,4 @@
-﻿---
+---
 title: "2. Project proposal"
 weight: 2
 chapter: false

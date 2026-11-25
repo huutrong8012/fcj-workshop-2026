@@ -19,6 +19,8 @@ chapter: false
 
 &emsp; **Major:** Information Assurance
 
+&emsp; **Class:** CloudSecurityFPT
+
 &emsp; **Internship Company:** Amazon Web Services Viet Nam Company Limited
 
 &emsp; **Internship Position:** Workforce Bootcamp - First Cloud AI Journey
