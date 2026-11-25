@@ -1,6 +1,6 @@
 baseURL = "https://huutrong8012.github.io/fcj-workshop-2026/"
 relativeURLs = false
-canonifyURLs = false
+canonifyURLs = true
 defaultContentLanguage = "en"
 
 # Change the default theme to be use when building the site with Hugo
