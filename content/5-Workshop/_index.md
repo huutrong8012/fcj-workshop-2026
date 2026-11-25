@@ -1,26 +1,20 @@
 ---
-title: "Workshop"
-date: 2026-11-24
+title: "5. Workshop"
 weight: 5
 chapter: false
-pre: " <b> 5. </b> "
 ---
 
-# PhishGuard AI Workshop — Phishing Triage and Human-Approved Response on AWS
+An employee forwards a suspicious email while a colleague submits a screenshot of the same campaign. SecOps needs to preserve both originals, establish who can read each report and record the reason for a decision. This lab builds that process in US East (N. Virginia).
 
-An employee forwards a suspicious email to the security team, while a colleague uploads a screenshot from the same campaign. SecOps needs to preserve the immutable original artifact for every report, control who can view sensitive evidence, and trace the exact reasoning behind every action. This workshop builds and validates the complete serverless workflow in **US East (N. Virginia) (us-east-1)**.
+**Outcome.** Submit text, an image or an email, trace one incident from intake to evidence and verify an approved dry-run action or a documented alternative outcome. For a fresh account follow sections in order. For an existing demo, begin with the account inventory in 5.5.1 and revisit the setup steps that differ.
 
-### Expected Outcome
-
-Submit text, an image, or a forwarded email; trace a single incident ID to its versioned S3 evidence object; and verify the simulated approval outcome (DRY_RUN) or terminal triage branch. When building from scratch, follow the sections in order. If auditing an existing demo deployment, start at **Section 5.5.1** to compare configurations and revisit any section with discrepancies.
-
-| Section | Expected Deliverable |
-| :--- | :--- |
-| **[5.1. Problem & Architecture](5.1-overview/)** | Trace the end-to-end data flow of a report and locate where raw evidence is preserved. |
-| **[5.2. Environment Preparation](5.2-prerequisite/)** | Configure the AWS lab account, IAM permissions, CLI tools, and workshop lab package. |
-| **[5.3. Application Deployment](5.3-deployment/)** | Deploy the SAM backend, Cognito/CloudFront portal, and edge AWS WAF protection. |
-| **[5.4. Email & AI Integration](5.4-email-ai/)** | Connect Amazon SES inbound email, index 5 playbooks in Bedrock Knowledge Base, and test RAG retrieval. |
-| **[5.5. Deployment Verification](5.5-verification/)** | Validate deployed resources, H01–H15 acceptance tests, OCR/QR extraction, and end-to-end demo tracing. |
-| **[5.6. Well-Architected Review](5.6-well-architected/)** | Evaluate architectural and operational decisions against the six AWS Well-Architected pillars. |
-| **[5.7. Cost Estimate & Actuals](5.7-cost/)** | Reproduce the monthly AWS Pricing Calculator estimate and audit Cost Explorer reports. |
-| **[5.8. Resource Cleanup](5.8-cleanup/)** | Tear down billable resources safely in dependency order. |
+| Section | Outcome |
+|---|---|
+| [5.1 · Problem and architecture](overview/) | Trace a report and see where evidence is preserved. |
+| [5.2 · Prerequisites](prepare/) | Prepare the account, access, tooling and lab bundle. |
+| [5.3 · Deploy the application](deploy/) | Deploy the backend, portal and edge protection in order. |
+| [5.4 · Connect email and AI](integrations/) | Configure mail intake, sync playbooks and verify retrieval. |
+| [5.5 · Verify the deployment](verify/) | Run the account, access, approval and image checks. |
+| [5.6 · Well-Architected review](operations/) | Examine operational risks and evidence against six pillars. |
+| [5.7 · COST · Estimate and billing](cost/) | Rebuild the monthly estimate and reconcile the billing export. |
+| [5.8 · Clean up resources](cleanup/) | Remove billable resources in dependency order. |
