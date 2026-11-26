@@ -1,10 +1,10 @@
-﻿---
+---
 title: "Theo dấu một sự cố"
 weight: 1
 chapter: false
 ---
 
-![PhishGuard AWS architecture with evidence storage and an approval callback](/images/phishguard/PhishGuard-Architecture.png)
+![PhishGuard AWS architecture with evidence storage and an approval callback](/images/phishguard/architecture-final.png)
 
 [draw.io](/downloads/PhishGuard-Architecture.drawio) · [XML](/downloads/PhishGuard-Architecture.xml) · [SVG](/images/phishguard/architecture.svg)
 
